@@ -24,3 +24,15 @@ E:\TerScan\TScan\obj\Debug\TScan.AuthorizationForm.resources
 E:\TerScan\TScan\obj\Debug\TScan.MainForm.resources
 E:\TerScan\TScan\obj\Debug\TScan.Properties.Resources.resources
 E:\TerScan\TScan\obj\Debug\TScan.csproj.GenerateResource.Cache
+E:\TScan\TScan\bin\Debug\TScan.exe.config
+E:\TScan\TScan\obj\Debug\TScan.exe
+E:\TScan\TScan\obj\Debug\TScan.pdb
+E:\TScan\TScan\bin\Debug\TScan.exe
+E:\TScan\TScan\bin\Debug\TScan.pdb
+E:\TScan\TScan\bin\Debug\Newtonsoft.Json.dll
+E:\TScan\TScan\bin\Debug\Newtonsoft.Json.xml
+E:\TScan\TScan\obj\Debug\TScan.AuthorizationForm.resources
+E:\TScan\TScan\obj\Debug\TScan.MainForm.resources
+E:\TScan\TScan\obj\Debug\TScan.Properties.Resources.resources
+E:\TScan\TScan\obj\Debug\TScan.csproj.GenerateResource.Cache
+E:\TScan\TScan\obj\Debug\TScan.csprojResolveAssemblyReference.cache

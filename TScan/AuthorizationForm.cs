@@ -26,19 +26,26 @@ namespace TScan
 
         private void GetToken_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
-            if (GetToken.Url.ToString().IndexOf("access_token=") != 0)
-            {
-                GetUserToken();
-            }
+               
         }
 
         private void GetUserToken()
         {
             char[] Symbols = { '=', '&' };
             string[] URL = GetToken.Url.ToString().Split(Symbols);
-            File.WriteAllText("UserInf.txt", URL[1] + "\n");
+            File.WriteAllText("UserInf.txt", URL[1] + Environment.NewLine);
             File.AppendAllText("UserInf.txt", URL[5]);
             this.Visible = false;
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GetUserToken();
         }
     }
 }
